@@ -1,0 +1,316 @@
+
+#nav 
+{ 
+    background-color: #383838; 
+    height: 8%; 
+    width: 100%;
+   /* position: fixed;*/
+    z-index: 1;
+    
+   
+
+   /* -webkit-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.49);
+    box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.49);*/
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.64);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.64);
+}
+
+#nav ul
+{
+    
+    margin: 0; 
+    list-style: none; 
+    display: inline-block; 
+    
+    
+    padding-top: 1.6%;   
+}
+
+#nav li 
+{        
+   display: inline; 
+    padding: 11px;
+}
+
+#nav a 
+{
+    color: #ffffff; 
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 99%;
+}
+
+#nav a:link 
+{
+    text-decoration: none;
+}
+
+#nav ul li a:hover 
+{
+    color: #006666;
+}
+
+body 
+{
+    padding: 0; 
+    margin: 0; 
+    background-color: #9B9B9B;
+    
+}
+
+#middle 
+{
+    height: 500px;
+    width: 100%;
+    background-color: #006666; 
+    
+    padding-top: 14%;
+    
+    display: inline-block;
+    text-decoration: none; 
+    border-bottom: 1px solid;
+    border-decoration-color: #323232;  
+  
+}
+
+#portsection2 
+{
+    
+    font-size: 100%;  
+    /*font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
+    font-weight: 200;
+    color: #181C1C;
+    width: 100%;
+    background-color: #9B9B9B;
+    white-space: nowrap;
+    margin-bottom: 10%;
+    display: inline-block;
+    
+}
+
+#portsection2 a 
+{ 
+    color: #000000; 
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#portsection2 a:link 
+{
+    text-decoration: none;
+}
+
+
+#main
+{
+   position: absolute; 
+    top: 160px; left: 29%;  
+}
+#myname 
+{
+    
+    /*position: relative; 
+    top: 20%; left: 31%;*/ 
+    font-size: 175%;  
+    /*font-family: font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-weight: normal;
+   
+    color: #323232; 
+      /*  #383838;
+    /*#181C1C;*/
+    
+}
+
+#mypic 
+{
+   
+    margin-bottom: 15%;
+    width: 10.5em;
+    height: 10.5em;
+    
+    background-image: url('../images/me2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 3px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+    /*position: relative; 
+    top: 30%; left: 31%;*/ 
+    border-color: #464646;
+    margin-top: 4%;
+   
+}
+#title
+{
+    margin-top: 2%;
+    margin-bottom:  2%;
+    padding-top: 0%; 
+}
+
+.border
+{
+    -webkit-box-shadow: 170px 175px 0 0 #FFFFFF;
+    box-shadow: 170px 175px 0 0 #FFFFFF;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.thumbnail 
+{
+    display: inline-block;
+    padding-left: .5%;
+    padding-right: .5%;
+    padding-bottom: 3%;
+    margin: 6%;
+    line-height: 1.42857143;
+    background-color: #A5A5A5;
+    border-radius: 2%;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-style: solid;
+    border-color: #737373;
+    border-width: 1px;
+    text-align: center;
+    width: 85%;
+    heigth: 95%;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+     /* Opera 7 */    
+    word-wrap: break-word;
+    font-size: 1%;
+    
+    
+    /*-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.41);*/
+    -webkit-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.41);
+      
+}
+.thumbnail img 
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: .5%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+
+   
+#aboutsection
+{
+    text-align: left;
+    padding-top: 6%; 
+    position: relative; 
+    
+    font-size: 100%; 
+    font-weight: 200; 
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif; 
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 20%;
+    /*color: #181C1C;*/
+    
+}
+
+.pclass
+{
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word; 
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    color: #000000;     
+}
+
+
+#details b {
+    font-size: 3vm;
+    
+}
+.headings {
+   font-family: Copperplate, 'Copperplate Gothic Light', fantasy; 
+    color: #323232; 
+
+    display: block;
+font-size: 1.5em;
+margin-before: 0.83em;
+margin-after: 0.83em;
+margin-start: 0;
+margin-end: 0;
+font-weight: bold;
+}
+#contact
+{
+    position: relative; 
+    
+    margin-top: 15%;  
+    font-size: 3vm;
+    margin-bottom: 30%;
+    
+}
+
+#fname {
+
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#lname {
+
+    margin-left: 5%;   
+    margin-bottom: 2%;
+}
+#email {
+    
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#text 
+{
+    margin-left: 5%; 
+    margin-bottom: 2%;
+    display: inline-block;
+}
+#send
+{
+    margin-left: 17.5%;    
+}
+.rounded
+{
+}
+
+h5
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+#simplegallery1{ //CSS for Simple Gallery Example 1
+position: relative; /*keep this intact*/
+visibility: hidden; /*keep this intact*/
+border: 10px solid darkred;
+}
+
+
+#simplegallery1 .gallerydesctext{ //CSS for description DIV of Example 1 (if defined)
+text-align: left;
+padding: 2px 5px;
+}
+</style>
+
+
