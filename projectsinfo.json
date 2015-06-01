@@ -1,0 +1,46 @@
+ [
+    {
+        "title": "Workstation Domain Migration",
+        "description": "While working for Automation and Continuity I was solely assigned to a project with the goal of developing a program that would migrate a workstation from the Novell domain into the Active Directory domain. This program checked for certain environmental variables and if certain conditions were met, it would launch a program to remove Novell , migrate the workstation into the Active Directory domain and log the results. This project involved me designing the sudo-code and logic first. I also researched the best languages to use for the purpose of this program. I ended up writing the program in VBScript. This program was deployed to every computer on campus. I finished the project a head of time and included a front end that displayed the log results of each deployment. For security purposes, I uploaded the screen shot of the results that were produced during the testing phase of this project.",
+        "skills": "VBScript",
+        "link": "https://github.com/JoeBPort/Active-Directory-Migration.git"
+    },
+    {
+        "title": "Campus Work Orders",
+        "description": "This application displays all of the work orders on campus by building. This was a project that was discontinued however I decided to still continue developing it on my free time just because it was really fun to create. This campus work order application used a Google maps API and would display a map pin for each building that had a work order. When the user clicks on the map pin a tooltip would be displayed with a brief description of the work order. Additional information regarding the work order that is currently being displayed on the tooltip will be displayed in the two panes that are on the right hand side of the map. The user also had the option to click errors that were on the tooltip that would move to and display the next work order for that building. The bottom pane was a menu gave the user the option to filter work orders by certain criteria. ",
+        "skills": "DOM, Javascript, PHP, Google API's, XML",
+        "link": "https://github.com/JoeBPort/Campus-Work-Orders.git"
+    },
+    {
+        "title": "Capstone Project",
+        "description": "In my capstone course, our class project was to create a web application that exchanged services for services such as lawn work, carpentry, cleaning and more. We used an agile development approach to completing this project. My assignment was to create a secure login for all users. For the front end display I used a jQuery popup overlay for a nice aesthetic appeal along with JavaScript for displaying messages. For the back end processing I used PHP to validate input, send messages to the administrator in case a database related issue occurred. For the database I used MySQL to query and validate data.",
+        "skills": "GitHub, jQuery",
+        "link": "https://github.com/JoeBPort/Capstone.git"
+    },
+    {
+        "title": "TPortal",
+        "description": "One of the biggest projects that I worked on while working for Automation and Continuity was called TPortal. TPortal was a web application for all of the Technical Assistance Center employees to use. TPortal housed various subsystems such as, scheduling, testing, campus software related info, clocking in clocking out of work and admin duties.  I worked on the testing subsystem which had pages that allowed users with special privileges to create tests, questions, answers, administer tests and review results. I also worked on the subsystem that allowed users to create their work schedules, view people that are punched, and search for punch in history. I’m still gathering code and screenshots from to Tportal to upload that regard these subsystems.",
+        "skills": "DOM, PHP, MySQL",
+        "link": "https://github.com/JoeBPort/Student-Tech-Test.git"
+    },
+    {
+        "title": "Windows Phone Apps",
+        "description": "While at Ferris, I took a two mobile application development courses. In my second mobile application development course we built applications for Windows phones using Visual Studios as our IDE. In Visual Studios we used Visual Basic of course to create our applications. This was a pretty fun experience and it introduced me to the MVC model, Visual Basic and the basics of mobile application development.",
+        "skills": "Visual Basic, Visual Studios",
+        "link": "https://drive.google.com/folderview?id=0BzBloMExLWHAfktWWDVoZEJGeHV3cmw2ampkUUN2SGg0RndrTHdtbTV2b25ZanNxbGJwSnM&usp=sharing"
+        
+    },
+    {
+        "title": "Portfolio",
+        "description": "This is portfolio is my most recent work. This portfoio was built using AngularJS, HTML, Javascript, jQuery and Bootstrap",
+        "skills": "AngularJS, Bootstrap, jQuery",
+        "link": ""
+    }
+]
+
+    
+    
+    
+    
+    
+    
