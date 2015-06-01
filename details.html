@@ -1,0 +1,52 @@
+
+<div id="details" style="margin-top: 6%">
+    
+    <b>Title</b> 
+    <hr>
+   
+    <!--Title-->
+    <p class="text-center" style="margin-bottom: 5%; font-family: Copperplate, 'Copperplate Gothic Light', fantasy;"><b>{{projects[num].title}}</b></p>
+    
+    <!--Photo Gallery-->
+    <div class="container slider" style="width: 90%;">
+        <img ng-repeat="photo in projgallery" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive($index)" ng-src="{{photo.src}}" width="70%" height="99%"  />
+	  
+	         <!--extra navigation controls-->
+	        <ul class="nav">
+	            <li ng-repeat="photo in projgallery" ng-class="{'active':isActive($index)}">
+	                <img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);"  />
+                </li>
+            </ul>
+    </div>
+    <br/> 
+    
+    <b style="margin-top: 5%">Project Details</b>
+    <hr>
+    
+    <!--Project Description-->
+    <p class="pclass" style="margin: 0;">
+       <span>{{projects[num].description}}</span> 
+    </p>
+    
+    <br/>
+    <b>Skills Learned</b>
+    <br/>
+    <hr>
+    
+    <!--Skills Section-->
+    <p class="pclass" >
+       <span> {{projects[num].skills}}</span> 
+    </p>
+    <br/>
+     <b>Link to Code</b>
+    <br/>
+    <hr/>
+    
+     <!--Skills Section-->
+    <p class="pclass" >
+       <span> <a href="{{projects[num].link}}">{{projects[num].link}}</a></span> 
+    </p>
+</div>
+
+
+
